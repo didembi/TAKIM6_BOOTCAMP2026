@@ -16,20 +16,22 @@ Didem Bilek, Larissa Fındık: Team Member/Developer
 --.............. --
 
 **Ürün Açıklaması**
-X uygulamamız kişinin davranışlarını bir form aracılığıyla analiz edip, kişiye ve alışkanlıkların uygun planlama ve takvim düzenler. Bu planlamayı yaparken kişinin zayıf alanlarını da belirleyerek kişisel hedefleri doğrultusunda ona en uygun yapıyı kurar. Böylece kişi karakterine en uygun motive edici planlayıcıya sahip olmuş olur.
+[İsim], kullanıcının çalışma ve planlama eğilimlerini kısa, literatür temelli bir testle ölçüp buna göre kişiye özel bir görev, not ve bildirim kurulumu oluşturan bir başlatma asistanıdır. Test sonucuna göre her ayar (bildirim sıklığı, görev görünümü, hatırlatma tonu gibi) ayrı ayrı ve gerekçesiyle birlikte belirlenir; sistem kullanıcıya bir kişilik etiketi veya tanı koymaz. Böylece kullanıcı, kendi çalışma biçimine baştan uygun kurulmuş bir sistemle başlar.
 
 
 **Ürün Özellikleri**
 
-+ Literatür tabanlı/destekli sistem yapısı
-+ Davranış analiz formu ve kişiye sonuçları bildirme
-+ Analiz sonuçlarının değerlendirilmesi ve sisteme uyarlanması
-+ Kişiye özel görevler, notlar, bildirimler ve takvim yapısı
-+ Widget özelliğiyle kişiye özel görsel hatırlatıcılar
-+ Zihin defteri ile hızlı dışa aktarım
-+ Uygulama kullanım verileriyle davranış yapısının kalibrasyonu
-+ Mobil ve web özelliği
+**Ürün Özellikleri (MVP kapsamı)**
++ Literatür temelli davranış modeli (6 eksen: dışadönüklük, yapı ihtiyacı, zaman algısı, motivasyon kaynağı, başlangıç eğilimi, odaklanma biçimi)
++ Kısa bir davranış testiyle kişiye özel ilk kurulum
++ Kişiye özel görev, not ve bildirim yapısı
++ Hızlı not alma ve serbest notu otomatik aksiyona çeviren yapay zeka desteği (Gemini)
++ Mobil uygulama (Expo/React Native)
 
+**Yol Haritası (MVP sonrası)**
++ Widget özelliğiyle kişiye özel görsel hatırlatıcılar
++ Uygulama kullanım verileriyle davranış yapısının kalibrasyonu
++ Sesli giriş ve web özelliği
 
 **Hedef Kitle**
 Yoğun profesyonel/ öğrenciler
@@ -40,19 +42,19 @@ Psikoloji bilimine ilgi duyanlar
 
 
 **Product Backlog URL**
-....
+https://docs.google.com/spreadsheets/d/1Oc5r0HrK7seuu4GETN-rs6MKXqWmuY4PbOpDjk-Eme4/edit?usp=sharing
 
 
 **Sprint 1**
 
-Backlog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Story'ler yapılacak işlere (task'lere) bölünmüştür.Notion Board'da gözüken yıldızlı görevler önceliklendirilmiştir ve görevlerin kişi ataması yapılmıştır.
+**Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Story'ler yapılacak işlere (task'lere) bölünmüştür. Notion Board'da gözüken yıldızlı görevler önceliklendirilmiştir ve görevlerin kişi ataması yapılmıştır. Story başına çıkan tahmin puanı, toplam puanın yarısından azdır (2. Sprint toplamı 46 puan, en büyük madde 5 puandır). Backlog ve burndown yapısı, ilerlemeyi tek görünümde özetlemek amacıyla Notion'a ek olarak sunum ve paylaşım amacıyla Google Sheets'e de aktarılmıştır.
 
-
-**Daily Scrum: ** Daily Scrum toplantılarının zamansal sebeplerden ötürü Google Meet üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantı notları Readme'de tarafımızdan paylaşılmaktadır: .....
+**Daily Scrum:** Ekip üyelerinin uygunluk saatleri farklı olduğu için canlı günlük toplantı yerine Salı, Perşembe ve gerektiğinde Cumartesi günleri düzenli senkron toplantıları yapılmaktadır. Bu sprintte toplantı araları için ayrı bir günlük check-in uygulanmamıştır.
+Daily Scrum toplantı notları Readme'de tarafımızdan paylaşılmaktadır: .....
 
 **Sprint board update:** Sprint board screenshotları:
 
-<img width="979" height="691" alt="image" src="https://github.com/user-attachments/assets/234f0a80-4133-4be5-857b-2031a16ae708" />
+<img width="882" height="831" alt="Sprint_Board" src="https://github.com/user-attachments/assets/2b92e829-12a1-4955-a8d0-c10f6f07ee10" />
 
 
 **Ürün Durumu**: Ekran görüntüleri:
@@ -62,7 +64,7 @@ Backlog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere gör
 <img width="342" height="732" alt="image" src="https://github.com/user-attachments/assets/7b469177-38c1-4bc8-ba51-8d0437e099e6" />
 
 **Sprint Review:** 
-Alınan kararlar: Ürün ismi için alternatiflerin belirlenmesi planlanmıştır. İlk analiz için Google Form ve test alt yapısının oluşturulması planlanmıştır. MVP için tech stack araştırılması yapılacaktır. Ürün mimarisi oluşturuldu ve yol haritası belirlendi.
+Alınan kararlar: Ürünün davranışsal eksen yapısı ve puanlama mantığı literatür taramasıyla belirlendi (6 eksen: dışadönüklük, yapı ihtiyacı, zaman algısı, motivasyon kaynağı, başlangıç eğilimi, odaklanma biçimi). Preset/argmax tabanlı bir model test edildi, yanlış sonuç ürettiği görülünce derleyici modeline (her ayarın bağımsız kuraldan üretilmesi) geçildi. 15 ayarlık kural tablosu ve 12 soruluk quiz taslağı çıkarıldı. MVP'nin 8 modülü ve tech stack'i (Expo, Supabase, Gemini, EAS, Vercel) netleşti. Derleyici ve eksen-ayar ilişkisini gösteren iki basit interaktif demo hazırlandı.
 
 Sprint Review katılımcıları: Merve Papakçı , Çağrı Yaman, Larissa Fındık , Didem Bilek
 
@@ -74,6 +76,15 @@ Rakip uygulamaların geribildirimlerinin gözden geçirilmesi önceliklendirilmi
 
 
 
+---
+
+# Sprint 2
+
+---
+
+# Sprint 3
+
+---
 
 
 
