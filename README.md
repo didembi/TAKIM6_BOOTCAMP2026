@@ -1,22 +1,20 @@
-# TAKIM6_BOOTCAMP2026
-YZTA'NIN NCLC BOOTCAMP GRUBU 
-Merve Papakçı , Çağrı Yaman, Larissa Fındık , Didem Bilek
-
 **Takım İsmi**
-Takım 6 
+Bootcamp_6 
+
+**Takım Elemanları**
+- Çağrı Yaman: Product Owner
+- Merve Papakçı: Scrum Master
+- Didem Bilek, Larissa Fındık: Team Member/Developer
 
 **Ürün İle İlgili Bilgiler**
 
-**Takım Elemanları**
-Çağrı Yaman: Product Owner
-Merve Papakçı: Scrum Master
-Didem Bilek, Larissa Fındık: Team Member/Developer
+<img width="480" height="480" alt="Nori_App" src="https://github.com/user-attachments/assets/673985e8-caa9-4d39-a88f-e37835373c62" />
 
 **Ürün İsmi**
---.............. --
+NORI
 
 **Ürün Açıklaması**
-[İsim], kullanıcının çalışma ve planlama eğilimlerini kısa, literatür temelli bir testle ölçüp buna göre kişiye özel bir görev, not ve bildirim kurulumu oluşturan bir başlatma asistanıdır. Test sonucuna göre her ayar (bildirim sıklığı, görev görünümü, hatırlatma tonu gibi) ayrı ayrı ve gerekçesiyle birlikte belirlenir; sistem kullanıcıya bir kişilik etiketi veya tanı koymaz. Böylece kullanıcı, kendi çalışma biçimine baştan uygun kurulmuş bir sistemle başlar.
+NORI, kullanıcının çalışma ve planlama eğilimlerini kısa, literatür temelli bir testle ölçüp buna göre kişiye özel bir görev, not ve bildirim kurulumu oluşturan bir başlatma asistanıdır. Test sonucuna göre her ayar (bildirim sıklığı, görev görünümü, hatırlatma tonu gibi) ayrı ayrı ve gerekçesiyle birlikte belirlenir; sistem kullanıcıya bir kişilik etiketi veya tanı koymaz. Böylece kullanıcı, kendi çalışma biçimine baştan uygun kurulmuş bir sistemle başlar.
 
 
 **Ürün Özellikleri**
@@ -50,7 +48,7 @@ https://docs.google.com/spreadsheets/d/1Oc5r0HrK7seuu4GETN-rs6MKXqWmuY4PbOpDjk-E
 **Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Story'ler yapılacak işlere (task'lere) bölünmüştür. Notion Board'da gözüken yıldızlı görevler önceliklendirilmiştir ve görevlerin kişi ataması yapılmıştır. Story başına çıkan tahmin puanı, toplam puanın yarısından azdır (2. Sprint toplamı 46 puan, en büyük madde 5 puandır). Backlog ve burndown yapısı, ilerlemeyi tek görünümde özetlemek amacıyla Notion'a ek olarak sunum ve paylaşım amacıyla Google Sheets'e de aktarılmıştır.
 
 **Daily Scrum:** Ekip üyelerinin uygunluk saatleri farklı olduğu için canlı günlük toplantı yerine Salı, Perşembe ve gerektiğinde Cumartesi günleri düzenli senkron toplantıları yapılmaktadır. Bu sprintte toplantı araları için ayrı bir günlük check-in uygulanmamıştır.
-Daily Scrum toplantı notları Readme'de tarafımızdan paylaşılmaktadır: .....
+Daily Scrum toplantı notları Readme'de tarafımızdan paylaşılmaktadır: https://app.notion.com/p/38ff7b8e4c9880eab8cce2a29fef7a3e?v=391f7b8e4c988031b59c000c928786f1&source=copy_link
 
 **Sprint board update:** Sprint board screenshotları:
 
