@@ -32,11 +32,21 @@ NORI, kullanıcının çalışma ve planlama eğilimlerini kısa, literatür tem
 + Sesli giriş ve web özelliği
 
 **Hedef Kitle**
-Yoğun profesyonel/ öğrenciler
-Nörotipik bireyler
-Düzen severler
-Psikoloji bilimine ilgi duyanlar
-15 - 65 yaş arası kullanıcılar
+-Görevlerini, notlarını ve hatırlatmalarını daha kolay yönetmek isteyen bireysel kullanıcılar.
+-Karmaşık üretkenlik uygulamalarını kullanmakta zorlanan kişiler.
+-Kendi sistemini kurmak istemeyen, hazır ve sade bir düzen isteyen kullanıcılar.
+-Günlük işlerini, fikirlerini ve sorumluluklarını hızlıca kaydetmek isteyen kişiler.
+-Unutma, erteleme, dağılma veya başlamakta zorlanma yaşayan kullanıcılar.
+-Öğrenciler.
+-Yeni mezunlar.
+-Yeni işe başlayanlar.
+-Freelancer’lar.
+-Yoğun çalışan bireyler.
+-Kişisel hayatını ve günlük sorumluluklarını takip etmek isteyen kullanıcılar.
+-Notion, Trello, Todoist, Calendar gibi araçları fazla detaylı bulan kişiler.
+-Basit, kişisel ve düşük eforla kullanılabilecek bir çalışma alanı isteyen kullanıcılar.
+-Kişiye göre ayarlanan ama kullanıcıdan fazla kurulum istemeyen bir uygulamaya ihtiyaç duyan kişiler.
+-15 - 65 yaş arası kullanıcılar
 
 
 **Product Backlog URL**
