@@ -7,8 +7,7 @@ Bootcamp_6
 - Didem Bilek, Larissa Fındık: Team Member/Developer
 
 * **Ürün İle İlgili Bilgiler**
-
-<img width="480" height="480" alt="Nori_App" src="https://github.com/user-attachments/assets/673985e8-caa9-4d39-a88f-e37835373c62" />
+<img width="1045" height="1024" alt="NORI-LOGO" src="https://github.com/user-attachments/assets/017802d4-9a20-4815-817a-ab4ce3fbda51" />
 
 * **Ürün İsmi**
 NORI
@@ -91,7 +90,11 @@ Rakip uygulamaların geribildirimlerinin gözden geçirilmesi önceliklendirilmi
 # Sprint 2
 
 * **Uygulama Ekran Görüntüleri:**
-........
+<img width="682" height="711" alt="NORI_V1" src="https://github.com/user-attachments/assets/e41671e3-1165-41cd-bf62-41e845c991e0" />
+<img width="667" height="711" alt="NORI_V2" src="https://github.com/user-attachments/assets/b230f47e-1955-49a0-8c54-232ee25c6bd4" />
+<img width="667" height="702" alt="NORI_V3" src="https://github.com/user-attachments/assets/f4639722-bb9e-43b7-8144-f92b9facff19" />
+<img width="666" height="706" alt="NORI_V4" src="https://github.com/user-attachments/assets/92879f3e-1014-4638-a807-36903b85f7b7" />
+
 
 *  **Proje Yönetimi:**
 * **Sprint board update:** Sprint board screenshotları:
@@ -104,7 +107,7 @@ Rakip uygulamaların geribildirimlerinin gözden geçirilmesi önceliklendirilmi
 
 
 * **Burndown Chart:**
-........
+https://docs.google.com/spreadsheets/d/1K7aoCyKwaoIPFr4JiVXm1FRCqpFOtzmnwsN72bEN6ls/edit?usp=sharing
 
 * **Sprint Notes:**
 * İkinci sprintte, uygulamanın anahatları belirlendi. Demo görüntüleri Çağrı Yaman tarafından hazırlandı.
@@ -117,20 +120,23 @@ Rakip uygulamaların geribildirimlerinin gözden geçirilmesi önceliklendirilmi
 * Anasayfa, görevler, görev ekle butonu, notlar ve takvim sayfalarının UI/UX kısımları revize edildi.
 * KVKK belgesi hazırlandı, ekipçe gözden geçirildi, tekrar incelenecek. Demo anketine kısaca KVKK notu eklendi.
 * Rakip uygulamaların kullanımı gözden geçirildi.
-* 
-* 
+
 
 * **Sprint Review Participants:**
 Merve Papakçi, Çağrı Yaman, Larissa Fındık, Didem Bilek
 
 * **Sprint Retrospective:**
+- KVKK belgesi hâlâ "tekrar incelenecek" durumda kalmış, 3. Sprint'e açık madde olarak taşınıyor.
+- Sprint kapsamı önemli ölçüde büyüdü (Sprint başında 46 puanlık plan, şu an 96 puana çıktı); bunun sebebi netleştirilip 3. Sprint planlamasında kapsam disiplinine dikkat edilmesi kararlaştırıldı.
+- Tasarım (maskot, UI/UX), araştırma (anket, KVKK) ve teknik (compiler demo) işlerin paralel yürütülmesi verimli oldu, bu çalışma biçimi sürdürülecek.
 
 
 * **Expected point completion within Sprint:**
-.........
+2. Sprint için toplam 96 puanlık iş planlandı/eklendi, bunun 53 puanı bu ara değerlendirmede tamamlanmış durumda (16 puan hâlâ To Do/In Progress'te, geri kalanı Backlog'da bekliyor).
+
 * **Point Completion Logic:**
 
-A total target of ..... points was set. .... points were completed in the first sprint. In the second sprint, the overall completion of the codes was requested, a target of ... points was set and completed. In the third sprint, a target of .... points was set as the remaining tasks would be completed and integration work would be carried out.
+Sprint başında 46 puanlık bir hedef belirlendi. Sprint ilerledikçe kapsamı genişleten yeni işler eklendi (tasarım, KVKK, anket, video, dokümantasyon), toplam 96 puana çıktı. Bu ara değerlendirmede 53 puan tamamlandı, 43 puan kalan iştir. 3. Sprint'te kalan modül testlerinin bitirilmesi ve entegrasyon çalışmalarının yapılması hedeflenmektedir.
 
 * **Daily Scrum:** Ekip üyelerinin uygunluk saatleri farklı olduğu için toplsntı saatleri ve günleri haftaiçi 3 gün ve aralıklı olacakk şekilde ayarlandı, ör; Çarşamba, Cuma, Pazar. 
 Daily Scrum toplantı notları: https://app.notion.com/p/38ff7b8e4c9880eab8cce2a29fef7a3e?v=391f7b8e4c988031b59c000c928786f1&source=copy_link
