@@ -110,26 +110,55 @@ Rakip uygulamaların geribildirimlerinin gözden geçirilmesi önceliklendirilmi
 https://docs.google.com/spreadsheets/d/1K7aoCyKwaoIPFr4JiVXm1FRCqpFOtzmnwsN72bEN6ls/edit?usp=sharing
 
 * **Sprint Notes:**
-* İkinci sprintte, uygulamanın anahatları belirlendi. Demo görüntüleri Çağrı Yaman tarafından hazırlandı.
-* Premium plan notları alındı, gelecek planlarına eklendi.
-* Nori uygulamamıza maskot eklenmesibe karar verildi, Larissa Fındık görselleri hazırladı ve dailylerde görüntüleri revize edildi.
-* Uygulama öncesi demo için hazırlanan anket soruları belirlendi, anket dağıtımı yapıldı ve revizeler yapıldı.
-* Compiler demosu hazırlandı.
-* Rutin ekleme için ayrı bir kısım eklemek yerine görevler sayfasına eklenmesine karar verildi.
-* Önemli görülen görev ekleme butonu (+) alt sekmenin ortasında olmasına karar verildi.
-* Anasayfa, görevler, görev ekle butonu, notlar ve takvim sayfalarının UI/UX kısımları revize edildi.
-* KVKK belgesi hazırlandı, ekipçe gözden geçirildi, tekrar incelenecek. Demo anketine kısaca KVKK notu eklendi.
-* Rakip uygulamaların kullanımı gözden geçirildi.
+
+* İkinci sprintte Nori'nin bilgi mimarisi ve temel ürün sınırları netleştirildi. Stable bottom navigation yapısı `Home / Tasks / Add / Notes / Calendar` olarak belirlendi.
+* Routines için ayrı bir bottom-navigation alanı oluşturmak yerine Tasks içerisinde sibling bölüm olarak konumlandırılmasına karar verildi.
+* Merkezi Add butonunun bulunduğu sayfaya göre contextual çalışması kararlaştırıldı. Home üzerinde içerik türü seçimi; Tasks, Notes ve Calendar üzerinde ise ilgili içerik tipinin doğrudan eklenmesi benimsendi.
+* Altı adaptive axis; dışsallaştırma, yapı/özerklik, zaman farkındalığı, sözel-görsel temsil, göreve başlama ve odak/geçiş hassasiyeti olarak yeniden tanımlandı. Sistem persona veya tanı üretmeyecek şekilde continuous score temeline oturtuldu.
+* Preset/argmax yaklaşımı bırakılarak her surface ve ayarın bağımsız, deterministic ve açıklanabilir kurallarla derlendiği compiler yapısı detaylandırıldı.
+* Home, Tasks, Widget ve Notification compiler davranışları; axis çakışmaları ve kullanıcı override öncelikleriyle birlikte map edildi.
+* Home'un execution, Tasks'in ise inventory/organization yüzeyi olması kararlaştırıldı. Tasks layout seçimi kullanıcıya bırakıldı.
+* TIME High ve FOCUS High gibi çakışmalarda ihtiyaçlardan birinin silinmesi yerine Plan ve Focus yüzeylerinin birlikte çalıştığı composition modeli oluşturuldu.
+* Spatial Planner'ın, takvim ve rutinlerdeki sabit blokların yanında flexible günlük görevlerin zaman çizgisine yerleştirilmesini sağlamasına karar verildi.
+* Notes layout'unun compiler tarafından zorunlu değiştirilmemesi, kullanıcının List/Bento tercihini kendisinin yapması kararlaştırıldı.
+* AI sisteminin chatbot yerine request fulfiller olarak çalışması; AI çıktılarının uygulamadan önce kullanıcıya gösterilmesi, düzenlenmesi ve onaylanması kararlaştırıldı. Personalized memory, davranış geçmişinden öğrenme ve arka planda otomatik sınıflandırma kapsam dışı bırakıldı.
+* Android-first React Native + Expo, local-first encrypted database ve ilerleyen aşamada Supabase sync yönü kesinleştirildi.
+* Ürün, domain model, adaptive axes, compiler, AI, design system, teknik mimari, MVP delivery ve karar kayıtlarını içeren kanonik proje dokümantasyonu hazırlandı.
+* Codex ve Claude Code'un aynı repository üzerinden çalışabilmesi için ortak AGENTS.md protokolü, WORKLOG handoff yapısı ve Decision Log disiplini oluşturuldu.
+* Private GitHub repository oluşturuldu ve production proje yapısı burada başlatıldı.
+* npm workspaces tabanlı Expo SDK 57 / React Native 0.86 mobil scaffold'u oluşturuldu.
+* İlk production vertical slice uygulandı: görev oluşturma → Tasks → Show on Home → Home → Focus → tamamlama → process restart sonrası state'in korunması.
+* Local persistence katmanında Drizzle migration, SecureStore tabanlı key yönetimi ve SQLCipher entegrasyonu uygulandı.
+* Windows'taki non-ASCII proje yolunun Node.js prebuild sırasında oluşturduğu hata teşhis edildi. Repository OneDrive/Türkçe karakterli yoldan `C:\Projects\NORI-Productivity-App` konumuna taşındı.
+* Pixel 7 API 36 emulator üzerinde clean prebuild ve development build başarıyla tamamlandı.
+* DL-034 görev akışı ve process restart persistence emulator üzerinde doğrulandı.
+* SQLCipher 4.7.0 runtime doğrulandı. Yanlış veya eksik anahtarın mevcut database'i okuyamadığı, verinin silinmediği ve DB/WAL dosyalarında sentinel içeriğin plaintext bulunmadığı kanıtlandı.
+* Final doğrulamada lint, workspace typecheck, 6/6 test, Android build ve Expo Doctor 20/20 kontrolü geçti.
+* Fiziksel Android cihaz, gerçek upgrade ve backup/restore doğrulamaları açık gate olarak bir sonraki çalışmaya taşındı.
+* Premium plan fikirleri gelecek planına kaydedildi; payment/subscription sistemi MVP kapsamına alınmadı.
+* Nori için maskot kullanılmasına karar verildi. Larissa Fındık tarafından hazırlanan görseller ekip görüşmeleri doğrultusunda revize edildi.
+* Demo anketi soruları hazırlandı, dağıtıldı ve alınan geri bildirimlerle revize edildi.
+* KVKK belgesi hazırlandı ve ekip tarafından ilk kez gözden geçirildi; nihai hukuk/uyum incelemesi açık madde olarak bırakıldı.
+* Rakip productivity uygulamalarının onboarding, task organization ve kullanım sürtünmeleri incelendi.
 
 
 * **Sprint Review Participants:**
 Merve Papakçi, Çağrı Yaman, Larissa Fındık, Didem Bilek
 
+- Sprint 2 sonunda proje yalnız tasarım ve compiler demosu seviyesinde kalmamış, gerçek Android production repository'sine geçirilmiştir. Ürünün stable bilgi mimarisi, altı adaptive axis'i, deterministic compiler sınırları ve Home/Tasks ayrımı belgelenmiştir.
+- Expo SDK 57 ve React Native 0.86 tabanlı mobil altyapı oluşturulmuş; ilk uçtan uca görev akışı local encrypted repository üzerinden uygulanmıştır. Pixel 7 API 36 emulator üzerinde development build açılmış, görev akışı ve process restart persistence doğrulanmıştır.-
+- SQLCipher runtime testi sonucunda database'in şifreli çalıştığı, yanlış veya eksik anahtarla okunamadığı ve test içeriğinin DB/WAL dosyalarında plaintext bulunmadığı kanıtlanmıştır. Otomatik doğrulamada lint, typecheck, 6/6 test, Android build ve Expo Doctor 20/20 sonucu alınmıştır.
+- Fiziksel Android cihaz, upgrade ve backup/restore doğrulamaları tamamlanmadığı için OPEN-DL-005 bütünüyle kapatılmamıştır. Bir sonraki teknik adım fiziksel cihaz kabul testi; sonraki ürün dilimi ise onboarding, 12 soruluk değerlendirme, axis scoring ve deterministic compiler entegrasyonudur.
+
 * **Sprint Retrospective:**
 - KVKK belgesi hâlâ "tekrar incelenecek" durumda kalmış, 3. Sprint'e açık madde olarak taşınıyor.
 - Sprint kapsamı önemli ölçüde büyüdü (Sprint başında 46 puanlık plan, şu an 96 puana çıktı); bunun sebebi netleştirilip 3. Sprint planlamasında kapsam disiplinine dikkat edilmesi kararlaştırıldı.
 - Tasarım (maskot, UI/UX), araştırma (anket, KVKK) ve teknik (compiler demo) işlerin paralel yürütülmesi verimli oldu, bu çalışma biçimi sürdürülecek.
-
+- Compiler ve tasarım demosu ile production implementation'ın aynı şey olmadığı netleştirildi. Bundan sonraki sprint raporlarında `tasarlandı`, `kodlandı`, `emulator üzerinde doğrulandı` ve `fiziksel cihazda doğrulandı` statüleri ayrı raporlanacaktır.
+- Uzun ve OneDrive tarafından senkronize edilen non-ASCII proje yolunun native build araçlarında hata üretebildiği görüldü. Kalıcı development repository'si kısa ve ASCII bir path'e taşındı.
+- Native ve security capability'lerin yalnız config seviyesinde tamamlandı sayılmaması; development build ve runtime kanıtıyla gate kapatılması benimsendi.
+- Sprint sırasında kapsamın 46 puandan 96 puana çıkması planlama görünürlüğünü zorlaştırdı. Yeni teknik işlerin sprint board'a eklenmeden “tamamlandı” sayılmaması ve sprint dışı eklemelerin ayrıca işaretlenmesi kararlaştırıldı.
+- AI destekli hızlı geliştirme süreci ilerlemeyi hızlandırdı; ancak test, physical-device evidence, security ve decision-log gereksinimlerinin azaltılmaması kararlaştırıldı.
 
 * **Expected point completion within Sprint:**
 2. Sprint için toplam 96 puanlık iş planlandı/eklendi, bunun 53 puanı bu ara değerlendirmede tamamlanmış durumda (16 puan hâlâ To Do/In Progress'te, geri kalanı Backlog'da bekliyor).
