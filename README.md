@@ -8,17 +8,18 @@ Bootcamp_6
 - Didem Bilek: Team Member/Developer
 - Larissa Fındık: Team Member/Developer
 
-## **Ürün İle İlgili Bilgiler**
-**Ürün Logosu:** 
-<img width="1045" height="1024" alt="NORI-LOGO" src="https://github.com/user-attachments/assets/017802d4-9a20-4815-817a-ab4ce3fbda51" />
 
-**Ürün İsmi**: 
+## **Ürün İsmi**: 
 **NORI**
 
-**Ürün Açıklaması:**
+## **Ürün Logosu:** 
+<img width="1045" height="1024" alt="NORI-LOGO" src="https://github.com/user-attachments/assets/017802d4-9a20-4815-817a-ab4ce3fbda51" />
+
+
+## **Ürün Açıklaması:**
 NORI, kullanıcının çalışma ve planlama eğilimlerini kısa, literatür temelli bir testle ölçüp buna göre kişiye özel bir görev, not ve bildirim kurulumu oluşturan bir başlatma asistanıdır. Test sonucuna göre her ayar (bildirim sıklığı, görev görünümü, hatırlatma tonu gibi) ayrı ayrı ve gerekçesiyle birlikte belirlenir; sistem kullanıcıya bir kişilik etiketi veya tanı koymaz. Böylece kullanıcı, kendi çalışma biçimine baştan uygun kurulmuş bir sistemle başlar.
 
-**Ürün Özellikleri (MVP kapsamı):**
+## **Ürün Özellikleri (MVP kapsamı):**
 + Literatür temelli davranış modeli (6 eksen: dışadönüklük, yapı ihtiyacı, zaman algısı, motivasyon kaynağı, başlangıç eğilimi, odaklanma biçimi)
 + Kısa bir davranış testiyle kişiye özel ilk kurulum
 + Kişiye özel görev, not ve bildirim yapısı
@@ -30,7 +31,7 @@ NORI, kullanıcının çalışma ve planlama eğilimlerini kısa, literatür tem
 + Uygulama kullanım verileriyle davranış yapısının kalibrasyonu
 + Sesli giriş ve web özelliği
 
-**Hedef Kitle:**
+## **Hedef Kitle:**
 * Görevlerini, notlarını ve hatırlatmalarını daha kolay yönetmek isteyen bireysel kullanıcılar.
 * Karmaşık üretkenlik uygulamalarını kullanmakta zorlanan kişiler.
 * Kendi sistemini kurmak istemeyen, hazır ve sade bir düzen isteyen kullanıcılar.
